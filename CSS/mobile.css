@@ -1,0 +1,76 @@
+:root {
+    --light-red: #f7c08a;
+    --dark-grey: #222;
+    --mid-grey: #333;
+    --light-grey: #555;
+  }
+
+/* SECTION Navbar */
+
+.navbar .container-fluid{
+    padding: 0;
+}
+
+.nav-brand,.nav-pills,.nav-items{
+    float: none;
+    text-align: center;
+}
+.nav-brand{
+    border-bottom: 2px solid var(--light-grey) ;
+    font-size: 30px;
+}
+.nav-pills .nav-links{
+    display: block;
+    padding: 5px;
+    border-bottom: 1px dotted var(--mid-grey);
+}
+.active{
+    background-color: var(--dark-grey);
+}
+
+/* SECTION Showcase */
+
+.showcase-content{
+    height: 100%;
+}
+
+/* SECTION History */
+.history{
+    height: 100%;
+}
+.history-img{
+    display: none;
+}
+/* SECTION Features */
+.box{
+    float: none;
+    width: 100%;
+}
+/* SECTION ABOUT HOTEL  */
+.about-right,.about-content{
+    float: none;
+    width: 100%;
+}
+.about-content h1{
+    font-size: 35px;
+    line-height: 1.3em;
+    text-align: center;
+}
+.about-content p{
+    font-size: 18px;
+    line-height: 1.7em;
+}
+
+/* SECTION review  */
+.review h1{
+    font-size: 40px;
+}
+.review-box{
+    margin: 30px;
+ }
+
+/* SECTION Features  */
+.contact-info .box{
+    border-bottom: 2px dotted var(--mid-grey);
+    padding:50px 50px 15px ;
+}
